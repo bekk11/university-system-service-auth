@@ -1,0 +1,5 @@
+from apps.main.deputy_dean.api.create_deputy_dean import DeputyDeanCreateAPIView
+from apps.main.deputy_dean.api.destroy_deputy_dean import DeputyDeanDestroyAPIView
+from apps.main.deputy_dean.api.list_deputy_dean import DeputyDeanListAPIView
+from apps.main.deputy_dean.api.retrieve_deputy_dean import DeputyDeanRetrieveAPIView
+from apps.main.deputy_dean.api.update_deputy_dean import DeputyDeanUpdateAPIView

@@ -1,0 +1,5 @@
+from apps.notification.api.list_notification import NotificationsListAPIView, NotificationsRecipientViewSet
+from apps.notification.api.create_notification import NotificationsCreateAPIView
+from apps.notification.api.update_notification import NotificationsUpdateAPIView
+from apps.notification.api.destroy_notification import NotificationsDestroyAPIView
+from apps.notification.api.retrieve_notification import NotificationsRetrieveAPIView
