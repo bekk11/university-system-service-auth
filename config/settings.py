@@ -22,6 +22,8 @@ INTERNAL_IPS = [
     '127.0.0.1',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://auth-sevice.up.railway.app']
+
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
